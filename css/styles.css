@@ -1,0 +1,235 @@
+html{
+ height:100%;
+ width:100%;
+ min-width:400px;
+
+ /*allows navbar/whole page to not collapse when sizing down*/
+ display:table; 
+}
+
+body{
+  background: #202124;
+  display: block;
+  font-size: 14px;
+  font-family: Roboto,arial,sans-serif;
+  color: #bdc1c6;
+  min-height: 100%;
+  min-width: 400px;
+  
+  /*allows navbar/whole page to not collapse when sizing down*/
+  display: table-cell;
+  width:100%; 
+}
+
+/* Center align main div */
+.vertical-center {
+  margin: 0;
+  position: relative;
+  top: 21.5%;
+    /*-ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    */
+}
+  
+.container{
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+  margin-top: auto;
+    /*min-height: 92px;*/ 
+}
+
+.container_adv_page{
+  align-items: left;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: auto;
+  width: auto;
+  margin-top: auto;
+  margin-left:5px;
+    /*min-height: 92px;*/ 
+}
+
+#navbar {
+  float:right;
+    /*padding: 10px;*/
+  margin-right:10px;
+  margin-top: 9px;
+}
+
+#navbar, a{
+  color:white;
+  padding: 5px;
+  font-family: arial,sans-serif;
+  text-decoration: none;
+  padding-top: 12px;
+  font-size: 13px; 
+}
+
+/*Google Logo on index*/
+.google-logo {
+  position: relative;
+  margin-top:auto;
+  padding-top:20px;
+  bottom: 0; 
+  height: 100%;
+    /*background-color: black; */
+  background:url(/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png);
+}
+
+.images_logo {
+  color: #4487f6;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  position:absolute;
+  left: 215px;
+  padding-left:5px;
+  bottom: 0;
+  white-space: nowrap;
+}
+
+#search-bar {
+  display: flex;
+  flex-wrap:wrap;
+  flex: 1;
+  padding-left: 15px;
+  color:#e8eaed;
+  word-wrap: break-word;
+  align-items: center;
+  display: flex;
+  z-index: 3;
+  height: 44px;
+  background: #202124;
+  border: 1px solid #5f6368;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: auto auto;
+  width: 638px;
+    /* width:auto; */
+  max-width: 565px;
+  margin-top: 22px;
+  margin-bottom: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+  min-width: 300px;
+  padding-top: 5px;
+  }
+
+.form-buttons{
+  text-align: center;
+}
+
+.submit-button, .lucky-button {
+  height: 70px;
+  padding-top: 19px;
+  background-color: #303134;
+  border: 1px solid #303134;
+  border-radius: 4px;
+  color: #e8eaed;
+  font-family: Roboto,arial,sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none; 
+}
+
+#adv-logo{
+  height: 24px; 
+  width: 74px; 
+  padding-top: 22px; 
+  padding-left: 15px;  
+}
+
+.advanced_form{
+  justify-items: left;
+  margin-top: 45px;
+  padding-left: 40px;
+  align-items: left;
+  display: inline-flex;
+  flex-direction: column;
+  height: auto;
+  width: fit-content;
+}
+
+#adv-label {
+  color: #f28b82;
+  padding-top: 15px;
+  padding-left: 5px;
+  font-size: 20px;
+  margin: 25px 35px;
+}
+
+#border{
+  display:block;
+  width: 100%;
+  border-color: #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.adv-search-heading{
+  color: #e8eaed;
+  font-size: 16px;
+  margin-bottom:2.5px;  
+}
+
+.input-div{
+  margin-bottom: 2px;
+}
+
+.input-div label {
+  display: inline-block;
+  width: 200px;
+  color: #969ba1;
+  font-size: 13px;
+  
+}
+/* Not needed - using text-input selector
+.input-div input{
+  display: inline-block;
+  padding: 5px 10px;
+  width: 570px;
+}
+  */
+.text-input{
+  font-size: 13px;
+  height: 25px;
+  padding: 0px 8px;
+  /*padding: 3px 10px;
+  margin-left: -6px;*/
+  width: 570px;
+  background: #202124;
+  border: 1px solid #5f6368;
+  color: #bdc1c6;
+}
+
+.adv-submit{
+  /*display:flex;*/
+  /*justify-content: flex-end;*/
+  /*flex-wrap: wrap;*/ 
+  background: #8ab4f8;
+  border-color: #8ab4f8;
+  /*color: #202124;*/
+  color:white;
+  float: right;
+  margin: 17px 0px;
+  padding: 0 12px;
+  border-radius: 2px;
+  font-weight: bold;
+  text-align: center;
+  line-height:22px;
+  height:30px;
+  min-width:120px  
+}
+
+
+    
+
+  
